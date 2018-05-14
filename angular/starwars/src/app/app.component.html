@@ -1,0 +1,9 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div id="logo">
+  <img alt="Logo" width="20%"  src="../assets/img/logo.png">
+  <div id="dashboard" *ngIf="isDashboard()">
+    <a href='#' (click)="navigateDashboard($event)"> Dashboard </a>
+  </div>
+</div>
+
+<router-outlet></router-outlet>

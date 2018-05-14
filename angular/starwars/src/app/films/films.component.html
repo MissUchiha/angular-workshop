@@ -1,0 +1,14 @@
+<div class="container-fluid box">
+  <h5> Films </h5>
+  <div class="row films-list">
+    <div class="col-lg-4 col-md-3 col-sm-2"> </div>
+    <div class="col-lg-4 col-md-6 col-sm-8">
+      <ul>
+        <li class="film-elem" *ngFor="let film of films" (click)="navFilm(film)">
+          {{film.title}}
+        </li>
+      </ul>
+    </div>
+    <div class="col-lg-4 col-md-3 col-sm-2"> </div>
+  </div>
+</div>

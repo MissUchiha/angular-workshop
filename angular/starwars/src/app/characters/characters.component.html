@@ -1,0 +1,8 @@
+<div class="container-fluid box">
+  <h5> Characters </h5>
+  <ul class="row char-list">
+    <li class="col-3" [class.selected]="selectedId==char.id" *ngFor="let char of characters" (click)="navChar(char)">
+      {{char.name}}
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,21 @@
+"use strict";
+let x = 6, y = 0.19, lang = "Typescript", truth = true;
+let a, b = -4.3, framework = "Angular", lie = false;
+// a = "32";
+let cartoons = ["Aladdin", "Peter Pan", "Lion King"], years = [1998, 1987, 1972], everything = ["Disney", 2018, true];
+let tuple = ["English subtitles", true];
+console.log(tuple[0] + ":" + tuple[1]);
+var Lang;
+(function (Lang) {
+    Lang[Lang["Eng"] = 0] = "Eng";
+    Lang[Lang["Fra"] = 1] = "Fra";
+    Lang[Lang["Ita"] = 2] = "Ita";
+})(Lang || (Lang = {}));
+;
+let language = Lang.Eng;
+console.log(language);
+let whatever;
+whatever = 5.5;
+whatever = "Oh, whatever...";
+whatever = false;
+console.log(whatever);

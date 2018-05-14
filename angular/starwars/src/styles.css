@@ -1,0 +1,56 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: swFont;
+    src: url(assets/fonts/Starjedi.ttf);
+}
+
+body {
+  min-height: 900px;
+  background-color:  black;
+}
+
+* {
+  font-family: Tahoma, Geneva, sans-serif;
+  background-color:  black;
+  color: rgb(255, 233, 25);
+  font-size: 35px;
+}
+
+.box {
+  background-color: black !important;
+  height: 700px;
+  width: 100%;
+  text-align: center;
+}
+
+button {
+  outline: none;
+  width: 100px;
+  border: 1px solid rgb(128, 128, 0);
+  cursor: pointer;
+}
+
+button:hover {
+  outline:none;
+  border: 1px solid rgb(255, 233, 25);
+}
+
+button:active {
+  outline: none;
+  color: rgb(128, 128, 0);
+  border: 1px solid rgb(255, 233, 25);
+}
+
+button:focus {
+  outline:none;
+}
+
+input, input:focus, input:active, input:hover {
+  outline:none;
+  width: 80px;
+  border: 1px solid rgb(100, 100, 0);
+}
+
+a, a:hover, a:active, a:link, a:visited {
+color: rgb(255, 233, 25);
+}

@@ -1,0 +1,61 @@
+.char-detail, .char-detail > div {
+  font-size: 30px;
+  text-align: center;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+h5 {
+  margin-top: 80px;
+}
+
+input[type='radio'] {
+  transform: scale(2);
+}
+
+input[type='radio']:hover {
+  cursor: pointer;
+}
+
+.radio-container {
+  font-size: 25px;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  padding: 2px;
+}
+
+.radio-container:hover {
+  cursor: pointer;
+}
+
+#films-list {
+  margin-top: 30px;
+}
+
+#films-list > li {
+  font-size: 25px;
+  width: 500px;
+  margin: auto;
+  cursor: pointer;
+  text-align: left;
+  list-style-position: inside;
+  background-clip: padding-box;
+  border: 1px solid transparent;
+  padding: 20px;
+  height: 70px;
+}
+
+#films-list > li:hover {
+  border: 1px solid rgb(128, 128, 0);
+}
+
+button {
+  margin: auto;
+}

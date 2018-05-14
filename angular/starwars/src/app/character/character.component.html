@@ -1,0 +1,26 @@
+<div class="char-detail">
+  <h5> {{this.character.name}} </h5>
+  <br>
+  Rate:
+  <br>
+  <br>
+  <span class="radio-container">
+    1 <input type="radio" value="1" name="rate" [(ngModel)]="this.character.rate">
+  </span>
+  <span class="radio-container">
+    2 <input type="radio" value="2" name="rate" [(ngModel)]="this.character.rate">
+  </span>
+  <span class="radio-container">
+    3 <input type="radio" value="3" name="rate" [(ngModel)]="this.character.rate">
+  </span>
+  <span class="radio-container">
+    4 <input type="radio" value="4" name="rate" [(ngModel)]="this.character.rate">
+  </span>
+  <span class="radio-container">
+    5 <input type="radio" value="5" name="rate" [(ngModel)]="this.character.rate">
+  </span>
+  <br>
+  <br>
+  <button type="button" (click)="saveRate()">Save</button>
+  <button type="button" (click)="resetRate()">Reset</button>
+</div>

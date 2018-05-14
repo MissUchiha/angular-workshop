@@ -1,0 +1,27 @@
+<div class="film-detail">
+  <h5>
+    <i class="arrow" (click)="navPrevious()"> < </i>
+    {{film.title}}
+    <i class="arrow" (click)="navNext()"> > </i>
+  </h5>
+  <p>
+    Episode {{film.episodeId}}
+  </p>
+  <p id="desc">
+    <br>
+    {{film.desc}}
+  </p>
+  <br>
+  Number of views:
+  <input [(ngModel)]="film.numViews"/>
+  <button type="button" (click)="saveNumViews()">Save</button>
+  <br>
+  <div id="message" [class.error]="isError === true">
+    {{this.message}}
+  </div>
+  <br>
+  <button id="characters-btn" type="button" (click)="showCharacters()">Characters</button>
+  <div [class]="showClass">
+    <app-character-list [characters]="characters"> </app-character-list>
+  </div>
+</div>
